@@ -1,0 +1,1 @@
+module.exports.AMAZON_URL=`https://www.amazon.com/s?srs=5286335011`;

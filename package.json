@@ -1,0 +1,24 @@
+{
+  "name": "web-scrapping",
+  "version": "1.0.0",
+  "description": "search the amazon URL and collect the data from there to save into our database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seedAdmin": "node scripts-add-admin.js",
+    "startScraping": "node scripts-scrap-data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "prompt": "^1.2.2"
+  }
+}
